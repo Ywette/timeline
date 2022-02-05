@@ -1,0 +1,116 @@
+/* little reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    /* background-color: black; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(16, 0, 34);
+}
+
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(173, 7, 201) 0%, rgba(232, 21, 97, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px;
+    position: absolute;
+    left: 20px;
+    width: 2px;
+    height: 100%;
+}
+
+.first {
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.timeline__element {
+    transform: translateX(-50%);
+    flex-grow: 1;
+}
+
+.timeline__element:before {
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.timeline__2021 {
+    background: linear-gradient(0deg, rgb(81, 5, 83) 0%, rgba(232, 21, 97, 1) 57%, rgba(232, 21, 97, 1) 100%);
+}
+
+.star4:before {
+    width: 25px;
+    height: 25px;
+    margin-top: -8px;
+    transform: translateX(-50%);
+    background-image: url('./sdsds.svg');
+}
+
+.star5:before {
+    width: 14px;
+    height: 14px;
+    transform: translateX(-50%);
+    background-image: url('./fivestar.svg');
+    background-size: 100%;
+}
+
+.small:before {
+    width: 25px;
+    height: 25px;
+    margin-top: -4px;
+    transform: translateX(-50%);
+    background-image: url('./sdsds.svg');
+    background-size: 50%;
+}
+
+.line {
+    padding: 0 40px;
+    flex-grow: 1;
+    font-size: .7rem;
+}
+
+@media (min-width: 400px) {
+    .section {
+        margin-left: 20px;
+    }
+    .timeline {
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%);
+    }
+    .line {
+        width: 50%;
+    }
+    .line:nth-child(odd) {
+        text-align: end;
+        padding-right: 30px;
+    }
+    .line:nth-child(even) {
+        align-self: flex-end;
+        padding-left: 30px;
+    }
+}
