@@ -1,3 +1,7 @@
+<img src="https://github.com/Ywette/timeline/blob/main/intro.jpg" 
+       alt="timeline responsive" width="600" height="300"/>    
+       
+       
 # timeline
 
 ## this time line is:
