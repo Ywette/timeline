@@ -33,7 +33,7 @@ body {
 .section-done {
     background: linear-gradient(0deg, rgba(173, 7, 201, 1) 0%, rgba(253, 62, 129, 1) 100%);
     -webkit-background-clip: text;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .section-tasks {
