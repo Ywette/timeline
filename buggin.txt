@@ -1,0 +1,2 @@
+1) for gradient safari prob -
+https://stackoverflow.com/questions/31289537/webkit-text-fill-color-transparent-not-working-in-safari-7-1-7
