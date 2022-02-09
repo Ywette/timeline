@@ -73,11 +73,12 @@ body {
 }
 
 .line {
-    display: inline-block;
+    display: inline;
     margin-left: -1px;
     min-height: 25px;
     margin-bottom: 20px;
     justify-content: flex-start;
+    -webkit-box-decoration-break: clone;
 }
 
 .text-year {
