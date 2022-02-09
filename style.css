@@ -30,11 +30,7 @@ body {
     margin: 0 20px;
 }
 
-.section li {
-    background: linear-gradient(to right, #fc5404 20%, #f9b208 70%, #fc5404 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+.section li {}
 
 .section-done {
     background: linear-gradient(0deg, rgba(173, 7, 201, 1) 0%, rgba(253, 62, 129, 1) 100%);
